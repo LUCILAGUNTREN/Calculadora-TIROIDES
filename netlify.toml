@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
   publish = "dist"
-  # base = 
+
 
 [dev]
   command = "npm run dev"
@@ -20,3 +20,4 @@
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
