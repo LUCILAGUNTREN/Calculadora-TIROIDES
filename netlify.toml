@@ -1,6 +1,9 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  
+[build.environment]
+NODE_VERSION = "22"
 
 [dev]
   command = "npm run dev"
@@ -19,5 +22,6 @@
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
 
 
